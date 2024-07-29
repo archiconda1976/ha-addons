@@ -4,8 +4,8 @@ export MQTT_HOST="$(bashio::services mqtt 'host')"
 export MQTT_USER="$(bashio::services mqtt 'username')"
 export MQTT_PASS="$(bashio::services mqtt 'password')"
 
-export UPDATE_UDPC="$(bashio::config 'update_udpc')"
-export JPP_HOST="$(bashio::config 'jpp_host')"
+export UPDATE_UDPC=true
+export JPP_HOST="192.168.1.11"
 export JUICEBOX_HOST="$(bashio::config 'juicebox_host')"
 export DEVICE_NAME="$(bashio::config 'juicebox_device_name')"
 export DEBUG="$(bashio::config 'debug')"
