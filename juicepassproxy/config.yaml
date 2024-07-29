@@ -15,16 +15,17 @@ discovery:
 services:
   - "mqtt:need"
 options:
+  update_udpc: true  
   jpp_host: null
   juicebox_host: null
   juicebox_device_name: JuiceBox
-  debug: false
-  ignore_enelx: false
-  update_udpc: true
+  debug: true
+  ignore_enelx: false  
 schema:
+  update_udpc: bool
   jpp_host: str
   juicebox_host: str
   juicebox_device_name: str
   debug: bool
   ignore_enelx: bool
-  update_udpc: bool
+
