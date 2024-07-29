@@ -1,5 +1,9 @@
 # Config
 
+**jpp_host**: Set this field to the ip of the Proxy server if using update_udpc
+
+**update_udpc**: Set this to true to update address used by JuiceBox to send devices (avoids needed dns rules to update mapping)
+
 **juicebox_host**: Set this field to the ip of the JuiceBox device.
 
 **juicebox_device_name**: Set this field to the name of the device given in the Enel X Way app.
